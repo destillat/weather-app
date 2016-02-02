@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "name": "weather-angular",
+  "description": "AngularJS test app",
+  "repository": "https://github.com/destillat/weather-app",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.8.5"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  }
+}
