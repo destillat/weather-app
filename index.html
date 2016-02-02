@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" ng-app="weatherApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather test app</title>
+        <script src="assets/vendor/angular/angular.js"></script>
+        <script src="assets/vendor/angular-resource/angular-resource.js"></script>
+        <script src="assets/js/controllers.js"></script>
+        <script src="assets/js/services.js"></script>
+        <script src="assets/js/directives.js"></script>
+        <script src="assets/js/app.js"></script>
+    </head>
+    <body>
+        <h1>Weather test app</h1>
+        <div ng-controller="WeatherInfoCtrl">
+            <input ng-model="cityName">
+            <div weather></div>
+        </div>
+    </body>
+</html>
