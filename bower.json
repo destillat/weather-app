@@ -1,0 +1,7 @@
+{
+  "name": "weather-angular",
+  "dependencies": {
+    "angular": "~1.4.9",
+    "angular-resource": "~1.4.9"
+  }
+}
