@@ -1,0 +1,13 @@
+<div ng-show="info.main && info.weather">
+    <p>Weather in {{info.name}}</p>
+    <p>Temperature: {{info.main.temp}}</p>
+    <p>Humidity: {{info.main.humidity}}</p>
+    <p>Description: 
+        <span ng-repeat="weather in info.weather">
+            {{weather.description}}{{$last ? '' : ', '}}
+        </span>
+    </p>
+</div>
+<div ng-hide="info.main && info.weather">
+    <p>Enter city name, like "London"<p>
+</div>
